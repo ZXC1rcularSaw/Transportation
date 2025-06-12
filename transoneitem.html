@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="./images/icon.svg">
+    <title>Перевозка одного автомобиля</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+
+    <header class="container">
+        <div>
+            <div class="head-top">
+                <div>
+                    <a href="index.html"><img src="images/Logo(Header).svg" /></a>
+                </div>
+                <div class="head-top_right">
+                    <div>
+                        <a href="tel:+79372128967">+7 (937) 212-89-67</a>
+                        <p>Пн-пт с 7:00 до 16:00 (МСК) </p>
+                    </div>
+                    <a href="#send_request" ;>
+                        <button class="blue-btn">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </a>
+                </div>
+            </div>
+            <div class="head-bottom">
+                <nav>
+                    <ul>
+                        <li><a href="company.html">О КОМПАНИИ</a></li>
+                        <li><a href="services.html">УСЛУГИ</a></li>
+                        <li><a href="question.html">ВОПРОСЫ</a></li>
+                        <li><a href="contact.html">КОНТАКТЫ</a></li>
+                        <li><a href="documents.html">ДОКУМЕНТЫ</a></li>
+                    </ul>
+                </nav>
+                <select name="" id="">
+                    <option value="">ТОЛЬЯТТИ</option>
+                    <option value="">МОСКВА</option>
+                    <option value="">САНКТ-ПЕТЕРБУРГ</option>
+                    <option value="">САМАРА</option>
+                    <option value="">ЕКАТЕРИНБУРГ</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <div class="bread-crumb container">
+        <div>
+            <p>ПЕРЕВОЗКА ОДНОГО АВТОМОБИЛЯ</p>
+        </div>
+    </div>
+
+    <!-- company start -->
+
+    <div class="company container page-section">
+        <div class="company_content">
+            <div class="company-item">
+
+                <p class="main-text">Требуется перевозка одного автомобиля по России? Воспользуйтесь услугами автовоза. Для этого не обязательно иметь целую партию авто. Достаточно обратиться за помощью в транспортную компанию БУРЛАК, которая специализируется на перевозке
+                    единичных автомобилей.</p>
+                <p class="main-text">Большинство коммерческих автовозов работают только с автодилерами и перевозят большие партии авто. Добавить на такой автовоз даже одну дополнительную машину не представляется возможным.
+                </p>
+
+                <p class="main-text">В отличие от многих перевозчиков, БУРЛАК специализируется именно на перевозке от одного автомобиля, как автовозом так и эвакуатором, в том числе и крытым эвакуатором. </p>
+                <p class="main-text">За этой услугой в БУРЛАК часто обращаются:</p>
+                <ul>
+                    <li class="main-text">специалисты по авто подбору,</li>
+                    <li class="main-text">участники авто соревнований,</li>
+                    <li class="main-text">авто коллекционеры,</li>
+                    <li class="main-text">предприниматели, покупающие автомобили из Японии и Китая во Владивостоке,</li>
+                    <li class="main-text">люди, купившие авто в Европе.</li>
+                </ul>
+                <p class="main-text">Большое количество заказов на перевозку 1 автомобиля по всей России позволяет БУРЛАК быстро укомплектовывать автовозы для отправки в разных направлениях. Поэтому, обратившись в БУРЛАК за перевозкой 1-го автомобиля, вам не придется ждать
+                    удачного стечения обстоятельств и свободного места на автовозе. </p>
+                <p class="main-text">Будьте уверены, что вы и ваш автомобиль попали в надежные и ответственные руки, а доставка будет произведена максимально быстро и удобно для вас.</p>
+                <p class="main-text">Оплата услуг доступна за наличные и по безналичному расчету. Это и многое другое, делают перевозки авто на автовозах БУРЛАК быстрым, безопасным, доступным и очень удобным способом транспортировки автомобиля по территории России.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- company end -->
+
+    <!-- transportation start -->
+
+    <div class="transportation container section">
+        <div class="transportation_content">
+            <h2 class="title-2">ТРАНСПОРТИРОВКА АВТОМОБИЛЕЙ АВТОВОЗОМ</h2>
+            <div class="trans-type">
+                <h3>Тип автомобиля</h3>
+                <select name="" id="">
+                    <option value="">ВЫБЕРИТЕ ТИП АВТОМОБИЛЯ</option>
+                </select>
+                <div>
+                    <label for="run">
+                        <input type="radio" id="run" name="running" checked />
+                        АВТОМОБИЛЬ НА ХОДУ
+                    </label>
+                    <label for="norun">
+                        <input type="radio" id="norun" name="running" />
+                        АВТОМОБИЛЬ не НА ХОДУ
+                    </label>
+                </div>
+            </div>
+            <div class="trans-type">
+                <h3>МОДЕЛЬ И МАРКА АВТОМОБИЛЯ
+                </h3>
+                <input type="text" placeholder="МАРКА">
+                <input type="text" placeholder="МОДЕЛЬ">
+            </div>
+            <div class="trans-type">
+                <h3>ИНФОРМАЦИЯ О ПЕРЕВОЗКЕ
+                </h3>
+                <input type="text" placeholder="ОТКУДА">
+                <input type="text" placeholder="КУДА">
+                <input type="date" placeholder="ДАТА ТРАНСПОРТИРОВКИ">
+            </div>
+            <div class="trans-bottom">
+                <label for="agreement">
+                    <input type="checkbox" id="agreement" />
+                    <span>
+                        Отправляя данную форму, вы подтверждаете свое согласие на обработку
+                        персональных данных в соответствии с  <a href>условиями</a>.
+                    </span>
+                </label>
+                <a href="calculation.html" ;>
+                    <button class="blue-btn">ОНЛАЙН-РАСЧЕТ</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- transportation end -->
+
+
+    <!-- faq start -->
+
+    <div class="faq container section">
+        <div class="faq_content">
+            <h2 class="title-2">ОСТАВИТЬ ЗАЯВКУ НА ПЕРЕВОЗКУ</h2>
+            <form action="" class="" id="send_request">
+                <div>
+                    <div class="form-items">
+                        <input class="input-type-wht" placeholder="ФИО" type="text">
+                    </div>
+                    <div class="form-items">
+                        <input class="input-type-wht" placeholder="ТЕЛЕФОН" type="text">
+
+                    </div>
+                </div>
+                <label for="agreement1" class="agreement-label-wht">
+                    <input type="checkbox" id="agreement1" />
+                    <span>
+                        Отправляя данную форму, вы подтверждаете свое согласие на обработку
+                        персональных данных в соответствии с  <a href>условиями</a>.
+                    </span>
+                </label>
+                <button class="white-btn" style="margin: auto;">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- faq end -->
+
+    <!-- footer start -->
+
+    <footer class="container">
+        <div class="footer_content">
+            <div class="footer-left">
+                <img src="images/Logo(Footer).svg" alt="lk">
+                <div>
+                    <a href="tel:+79372128967">+7 (937) 212-89-67</a>
+                    <p>Пн-пт с 7:00 до 16:00 (МСК) </p>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h3>НАВИГАЦИЯ</h3>
+                <nav>
+                    <ul>
+                        <li><a href="company.html">О КОМПАНИИ</a></li>
+                        <li><a href="services.html">УСЛУГИ</a></li>
+                        <li><a href="question.html">ВОПРОСЫ</a></li>
+                        <li><a href="contact.html">КОНТАКТЫ</a></li>
+                        <li><a href="documents.html">ДОКУМЕНТЫ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-nav">
+                <h3>НАВИГАЦИЯ</h3>
+                <nav>
+                    <ul>
+                        <li><a href="saveitem.html">ХРАНЕНИЕ АВТО</a></li>
+                        <li><a href="transrd.html">УСЛУГИ АВТОВОЗА</a></li>
+                        <li><a href="transfull.html">ПЕРЕВОЗКА ЛОТОВ</a></li>
+                        <li><a href="transoneitem.html">ПЕРЕВЕЗТИ 1 АВТО</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-right">
+                <div>
+                    <img src="images/VK.svg" alt="VK">
+                    <img src="images/Whatsapp.svg" alt="Whatsapp">
+                    <img src="images/Telegram.svg" alt="Telegram">
+                </div>
+                <span>© 2024 БУРЛАК. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
